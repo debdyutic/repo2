@@ -14,7 +14,7 @@ public class Test20
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Desktop\\rock\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.mercurytravels.co.in/");
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 	//Test wheather it is Singleselect or Multiselect	
 		driver.findElement(By.xpath("(//*[contains(text(),'Holidays')])[5]")).click();
 		WebElement w=driver.findElement(By.name("nights"));
